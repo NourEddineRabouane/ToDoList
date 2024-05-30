@@ -3,7 +3,16 @@
     margin: 0 auto;
     padding: 1rem;
 }
-
+ @media screen and (min-width:481px) and (max-width:768px) {
+  #root {
+    margin : 0 calc(23% / 2);
+  }
+ }
+ @media screen and (min-width:769px) {
+  #root {
+    margin : 0 calc(40% / 2);
+  }
+ }
 header {
     max-width: 100dvw;
     height: 80px;
